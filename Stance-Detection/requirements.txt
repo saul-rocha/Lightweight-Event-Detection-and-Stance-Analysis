@@ -1,0 +1,8 @@
+# Python 3.10–3.12
+torch>=2.1
+# 4.46.x matches the time of the experiments (Nov/2024) and still exposes
+# transformers.AdamW(correct_bias=False), used in the original training.
+transformers==4.46.3
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
